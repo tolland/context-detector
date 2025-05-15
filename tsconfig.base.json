@@ -1,0 +1,30 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "src/svelte/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "target": "ES2022",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        "emitDecoratorMetadata": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+        "baseUrl": "src",
+        "noEmit": false,
+        "paths": {
+            "@WebExtension/*": [
+                "WebExtension/*"
+            ]
+        }
+    }
+}
